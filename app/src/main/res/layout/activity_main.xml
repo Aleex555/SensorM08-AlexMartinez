@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/XAxis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X: 0.0"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/YAxis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Y: 0.0"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/ZAxis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Z: 0.0"
+        android:textSize="18sp"/>
+</LinearLayout>
